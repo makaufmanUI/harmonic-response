@@ -150,7 +150,7 @@ if 'charts' not in st.session_state:
 
 
 
-st.title("Analysis Results")
+st.title("Simulation Results")
 # st.markdown("---")
 st.markdown("# ")
 
