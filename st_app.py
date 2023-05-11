@@ -191,13 +191,22 @@ locate_modal_freq_with = st.sidebar.selectbox("Modal Frequency Locations", optio
 plot_parameters = dict(fill=fill, markers=markers, locate_modal_freq_with=locate_modal_freq_with, marker_size=marker_size)
 st.sidebar.markdown("---")
 
-st.sidebar.header("Miscellaneous")
-show_data = st.sidebar.checkbox("Here", value=False)
-st.sidebar.markdown("---")
-
 st.sidebar.header("Here")
 st.sidebar.info(body=\
-    """ Here. """
+    """
+    - sim6:  Clip method, acceleration applied in z-direction.
+    - sim7:  Clip method, acceleration applied in x-direction.
+    - sim8:  Clip method, acceleration applied in y-direction.
+    - sim9:  Edge-on, acceleration applied in z-direction.
+    - sim10: Edge-on, acceleration applied in y-direction.
+    - sim11: Edge-on, acceleration applied in x-direction.
+    - sim12: Screw method, base-excitation applied in z-direction.
+    - sim13: Screw method, base-excitation applied in y-direction.
+    - sim14: Screw method, base-excitation applied in x-direction.
+    - sim15: Screw method, forces applied in z-direction.
+    - sim16: Screw method, forces applied in y-direction.
+    - sim17: Screw method, forces applied in x-direction.
+    """
 )
 
 
