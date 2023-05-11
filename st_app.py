@@ -191,7 +191,7 @@ locate_modal_freq_with = st.sidebar.selectbox("Modal Frequency Locations", optio
 plot_parameters = dict(fill=fill, markers=markers, locate_modal_freq_with=locate_modal_freq_with, marker_size=marker_size)
 st.sidebar.markdown("---")
 
-st.sidebar.header("Here")
+st.sidebar.header("About")
 st.sidebar.info(body=\
     """
     - sim6:  Clip method, acceleration applied in z-direction.
