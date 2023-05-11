@@ -175,11 +175,11 @@ else:
     chart_type = st.sidebar.selectbox("Chart Type", options=["line"], index=0, help="Type of chart to use for plotting")
 if plot_type == "single":
     chart_type = "line"
-data_type = st.sidebar.selectbox("Data Type", options=["velocity", "acceleration", "deformation"], index=0, key="data_type", help="Type of data to plot")
+data_type = st.sidebar.selectbox("Data Type", options=["velocity", "acceleration", "deformation"], index=1, key="data_type", help="Type of data to plot")
 if chart_type == "line":
-    axis = st.sidebar.selectbox("Axis", options=["x", "y", "z", "all"], index=0, key="axis", help="Axis of the data to plot")
+    axis = st.sidebar.selectbox("Axis", options=["x", "y", "z", "all"], index=2, key="axis", help="Axis of the data to plot")
 else:
-    axis = st.sidebar.selectbox("Axis", options=["x", "y", "z"], index=0, key="axis", help="Axis of the data to plot")
+    axis = st.sidebar.selectbox("Axis", options=["x", "y", "z"], index=2, key="axis", help="Axis of the data to plot")
 st.sidebar.markdown("# Parameters")
 st.sidebar.write(" ")
 fill = st.sidebar.checkbox("Fill", value=True, key="fill", help="Fill the area under the curve")
