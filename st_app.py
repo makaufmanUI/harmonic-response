@@ -161,7 +161,7 @@ st.sidebar.title("Options")
 st.sidebar.markdown("---")
 st.sidebar.markdown("# Simulation Data")
 st.sidebar.write(" ")
-sim_folder = st.sidebar.selectbox("Dataset", options=["sim6", "sim7", "sim8", "sim9", "sim10", "sim11", "sim12", "sim13", "sim14", "sim15", "sim16", "sim17"], index=0, key="sim_folder", help="Select the dataset to use for plotting")
+sim_folder = st.sidebar.selectbox("Dataset", options=["sim6", "sim7", "sim8", "sim9", "sim10", "sim11", "sim12", "sim13", "sim14", "sim15", "sim16", "sim17"], index=6, key="sim_folder", help="Select the dataset to use for plotting")
 st.sidebar.markdown("---")
 
 st.sidebar.markdown("# Plotting")
